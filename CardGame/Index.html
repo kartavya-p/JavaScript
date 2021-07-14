@@ -1,0 +1,56 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-family: segoe UI;
+    background-color: greenyellow;
+}
+.container
+{
+    width: 80%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    /* background-color: gray; */
+    margin-left: 10%;
+}
+.padd
+    {
+        padding: 20px;
+    }
+.header
+{
+    height: 50px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+.cards
+{
+    width: 100%;
+    /* background-color: lightgrey; */
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    display: flex;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Guess The Card</title>
+    <link rel="stylesheet" href="Index.css"/>
+</head>
+<body>
+    <div class="container">
+        <div class="padd">
+            <div class="header">
+                <h1>Guess The Card</h1>
+                <h1>Score : <span id="score">0</span></h1>
+            </div>
+            <div class="cards" id="cards">
+                
+            </div>
+        </div>
+    </div>
+    <script src="Index.js" ></script>
+</body>
+</html>
